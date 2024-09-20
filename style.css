@@ -18,7 +18,7 @@ body{
 .cabecalho h2{
     width: 38%;
     color: aliceblue;
-    margin-right: 8%;
+    margin-right: 10%;
     margin-left: 2%;
 }
 .cabecalho nav{
@@ -30,8 +30,11 @@ body{
 .cabecalho a{
     color: aliceblue;
     text-decoration: none;
-    font-size: 20px;
-    padding: 0 5%;
+    font-size: 17px;
+    padding: 0 2%;
+}
+.cabecalho a:hover{
+    text-decoration: underline;
 }
 .cabecalho img{
     margin: 2%;
