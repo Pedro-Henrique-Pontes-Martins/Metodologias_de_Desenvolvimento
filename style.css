@@ -1,0 +1,48 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 100%);
+    height: 100px;
+    margin-bottom: 5%;
+}
+.cabecalho h2{
+    width: 38%;
+    color: aliceblue;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.cabecalho nav{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cabecalho a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5%;
+}
+.cabecalho img{
+    margin: 2%;
+}
+.rodape{
+    text-align: center;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 100%);
+}
+.rodape p{
+    color: aliceblue;
+    padding-top: 45px;
+    font-size: 20px;
+}
+
